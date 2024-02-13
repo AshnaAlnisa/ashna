@@ -1,0 +1,72 @@
+Staging area is like a temporary file
+
+Git and github
+---------------------
+
+1) downlaod git and create a repository
+2) open gitbash
+
+
+Git
+---------------------
+
+1) initial settings -> git config --global user.email "email_address"
+____________________
+
+2) git config --global user.name "name of person"
+ 
+3) git init -> used for initiate git for particular folder, which create another folder as ".git"
+
+4)ls -> to see all files present in folder
+------------------------------X----------------------------------------------------
+
+Working area which is local or working folder where we are working
+first we have to push in Staging area and then push in commit area or repository area
+
+----------------------------X-----------------------------------------------------
+
+to add to staging area
+---------------------
+
+git add "filename.extension"
+
+to check status
+------------------
+
+git status
+
+to commit or to push in repository area
+------------------------------------------
+
+git commit -m "Message which we are doing"
+
+------------------------------------------------X----------------------------------
+
+
+
+git log
+
+----------------------------X-------------------------------------------------
+
+1) now after repository, if the file is modified then by using git.status, we can see the file is modified or not, and if modified then we to do all the steps again
+2) if we push to repository same file without modification, then we get "nothing added to commit but untracked files present"
+
+------------------------------X----------------------------------------------------
+
+Github
+-----------------
+
+1) To connect git to github
+---------------------------------
+1)in github repository, we have been given a link to connect i.e. ......git, copy it
+2) in git write --> git remote add origin ......git                (url)
+3) then git push origin master ---> to push the file, then a pop up will shown, authorise it, and done rooo
+------------------------------------------------------------
+
+windows credential->remove github
+-------------------------------------------------------
+to add collabrators, we give in repository
+now in setting, go to access->collaborators and then addPeople
+
+to see all details who and when are pushing done
+--------------------------------------------------
